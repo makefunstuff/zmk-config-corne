@@ -104,7 +104,7 @@
         };
 
         to_fun {
-            bindings = <&to 2>;
+            bindings = <&tog 2>;
             key-positions = <36 37 40 41>;
             layers = <2>;
         };
@@ -125,7 +125,7 @@
         };
 
         to_nums {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <38 40>;
         };
     };
