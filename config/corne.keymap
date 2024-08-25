@@ -120,14 +120,9 @@
             key-positions = <36 37 38>;
         };
 
-        to_main {
-            bindings = <&to 0>;
-            key-positions = <29 28 30 31>;
-        };
-
         to_nums {
             bindings = <&tog 1>;
-            key-positions = <28 29 30 31>;
+            key-positions = <30 31 16 17>;
             layers = <1>;
         };
 
@@ -168,12 +163,12 @@
 
         num_three {
             bindings = <&kp NUMBER_3>;
-            key-positions = <24 25>;
+            key-positions = <24 25 8 9>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <28 29>;
+            key-positions = <>;
         };
     };
 
