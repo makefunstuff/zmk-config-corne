@@ -103,12 +103,6 @@
             key-positions = <10 22>;
         };
 
-        to_fun {
-            bindings = <&tog 2>;
-            key-positions = <36 37 40 41>;
-            layers = <2>;
-        };
-
         system_reset {
             bindings = <&sys_reset>;
             key-positions = <3 4 5 14>;
@@ -124,9 +118,19 @@
             key-positions = <36 37 38>;
         };
 
+        to_main {
+            bindings = <&to 0>;
+            key-positions = <1 0>;
+        };
+
         to_nums {
-            bindings = <&tog 1>;
-            key-positions = <38 40>;
+            bindings = <&to 1>;
+            key-positions = <13 12>;
+        };
+
+        to_fun {
+            bindings = <&to 2>;
+            key-positions = <24 25>;
         };
     };
 
