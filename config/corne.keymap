@@ -121,18 +121,18 @@
 
         to_main {
             bindings = <&to 0>;
-            key-positions = <1 0 40>;
+            key-positions = <29 28 30 31>;
         };
 
         to_nums {
             bindings = <&tog 1>;
-            key-positions = <13 12 40>;
+            key-positions = <28 29 30 31>;
             layers = <1>;
         };
 
         to_fun {
             bindings = <&tog 2>;
-            key-positions = <24 25 40>;
+            key-positions = <28 29 30 31>;
         };
 
         exp_pwr {
