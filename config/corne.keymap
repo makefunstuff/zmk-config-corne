@@ -124,12 +124,12 @@
         };
 
         to_nums {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <13 12>;
         };
 
         to_fun {
-            bindings = <&to 2>;
+            bindings = <&tog 2>;
             key-positions = <24 25>;
         };
     };
