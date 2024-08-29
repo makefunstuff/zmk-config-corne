@@ -120,17 +120,6 @@
             key-positions = <36 37 38>;
         };
 
-        to_nums {
-            bindings = <&tog 1>;
-            key-positions = <30 31 16 17>;
-            layers = <1>;
-        };
-
-        to_fun {
-            bindings = <&tog 2>;
-            key-positions = <28 29 30 31>;
-        };
-
         output_mode {
             bindings = <&out OUT_TOG>;
             key-positions = <40 6 7>;
@@ -151,24 +140,19 @@
             key-positions = <30 31>;
         };
 
-        nr_1 {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <0 1>;
+        tildecom {
+            bindings = <&mt TILDE RIGHT_COMMAND>;
+            key-positions = <23 10>;
         };
 
-        num_two {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <12 13>;
+        layertogone {
+            bindings = <&sl 1>;
+            key-positions = <30 19>;
         };
 
-        num_three {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <24 25 8 9>;
-        };
-
-        underscore {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <>;
+        layertogtwo {
+            bindings = <&sl 2>;
+            key-positions = <31 20>;
         };
     };
 
