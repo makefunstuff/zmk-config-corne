@@ -142,16 +142,16 @@
 
         tildecom {
             bindings = <&mt TILDE RIGHT_COMMAND>;
-            key-positions = <23 10>;
+            key-positions = <22 9>;
         };
 
         layertogone {
-            bindings = <&sl 1>;
+            bindings = <&tog 1>;
             key-positions = <30 19>;
         };
 
         layertogtwo {
-            bindings = <&sl 2>;
+            bindings = <&tog 2>;
             key-positions = <31 20>;
         };
     };
